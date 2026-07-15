@@ -21,7 +21,7 @@
     letter-spacing: 0.04em;
     cursor: pointer;
     display: block;
-    margin: 48px auto 0;
+    margin: 72px auto 0;
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
@@ -38,7 +38,6 @@
 }
 
 .hero-header {
-    font-family: Roboto;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -50,7 +49,21 @@
 }
 
 @media screen and (min-width: 320px) {
-    font-size: 56px;
-    line-height: 1.071;
-    max-width: 496px;
+    .hero-header {
+        font-size: 56px;
+        line-height: 1.071;
+        max-width: 496px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-order-button {
+        margin: 36px auto 0;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .hero-order-button {
+        margin: 48px auto 0;
+    }
 }
