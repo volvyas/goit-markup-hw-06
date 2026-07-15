@@ -46,7 +46,6 @@ body {
     font-size: 18px;
     line-height: 1.333;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #f4f4fd
 }
 
@@ -64,23 +63,9 @@ body {
 
 
 .container {
-    max-width: 320px;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 16px;
-    }
-}
-
-@media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding: 0 15px;
-    }
 }
 
 .flex-container {
