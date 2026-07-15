@@ -5,6 +5,16 @@
     padding: 100px 0;
 }
 
+.footer-container {
+    display: flex;
+    gap: 24px;
+    row-gap: 72px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
@@ -113,3 +123,8 @@
     background-color: #31D0AA;
 }
 
+@media screen and (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+    }
+}
