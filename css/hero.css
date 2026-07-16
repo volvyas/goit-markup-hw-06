@@ -66,4 +66,8 @@
     .hero-order-button {
         margin: 48px auto 0;
     }
+    
+    .hero {
+         background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-bg@2x.jpg');
+    }
 }
