@@ -42,6 +42,7 @@
 
 .team-img {
     width: 264px;
+    height: auto;
     object-fit: cover;
 }
 
