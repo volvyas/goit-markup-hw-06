@@ -118,7 +118,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     border: none;
     border-radius: 4px;
     background-color: #4D5AE5;
@@ -148,6 +148,15 @@
     .footer-form {
         gap: 24px;
         flex-direction: row;
+    }
+    .logo-wrapper {
+        justify-content: start;
+    }
+    .footer-socials-header {
+        text-align: left;
+    }
+    .footer-subscribe-title {
+        text-align: left;
     }
 }
 
