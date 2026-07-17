@@ -6,7 +6,7 @@
 .team-list {
     margin-top: 72px;
     display: flex;
-    gap: 24px;
+    gap: 72px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -89,7 +89,14 @@
 
 @media screen and (min-width: 768px) {
     .team-list {
-        flex-wrap: nowrap;
+        gap: 24px;
+        row-gap: 64px;
     }
 
+}
+
+@media screen and (min-width: 1158px) {
+        .team-list {
+            flex-wrap: nowrap;
+        }
 }
