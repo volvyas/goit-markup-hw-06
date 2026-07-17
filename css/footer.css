@@ -2,7 +2,7 @@
     background-color: #2e2f42;
     line-height: 1.5;
     color: #f4f4fd;
-    padding: 100px 0;
+    padding: 96px 0;
 }
 
 .footer-container {
@@ -88,7 +88,7 @@
 
 .footer-input {
     padding-left: 16px;
-    width: 264px;
+    width: 100vw;
     height: 40px;
     color: #FFF;
     border: 1px solid #FFF;
@@ -148,6 +148,7 @@
     .footer-form {
         gap: 24px;
         flex-direction: row;
+        max-width: 453px;
     }
     .logo-wrapper {
         justify-content: start;
@@ -158,9 +159,16 @@
     .footer-subscribe-title {
         text-align: left;
     }
+    .footer-input {
+        max-width: 264px; 
+    }
 }
 
 @media screen and (min-width: 1158px) {
+    .footer {
+        padding: 100px 0;
+    }
+
     .footer-left {
         margin-right: 120px;
     }
