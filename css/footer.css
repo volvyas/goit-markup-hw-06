@@ -168,12 +168,14 @@
     .footer {
         padding: 100px 0;
     }
-
     .footer-left {
-        margin-right: 120px;
+        margin-right: 0;
+    }
+    .footer-socials {
+        margin-right: 0;
     }
 
     .footer-container {
-        gap: 0
+        gap: 120px
     }
 }
