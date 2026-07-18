@@ -10,12 +10,12 @@
     align-items: center;
 }
 
-.header-container a {
-    padding: 16px;
-}
-
 .page-header .address {
     margin-left: auto;
+}
+
+.logo {
+    padding:16px 0;
 }
 
 .menu-button {
@@ -76,15 +76,18 @@
         justify-content: center;
         flex-wrap: nowrap;
     }
-}
 
-@media screen and (min-width: 768px) {
+    .logo {
+        padding:16px 0;
+    }
+
     .header-container {
         gap: 120px;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
 }
+
 
 @media screen and (min-width: 1158px) {
     .header-container {
@@ -98,6 +101,7 @@
         font-size: 16px;
         line-height: 24px;
     }
+
 }
 
 .nav-link {
