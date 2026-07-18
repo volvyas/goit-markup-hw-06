@@ -70,7 +70,6 @@
     text-align: center;
 }
 
-
 .portfolio-header {
     font-weight: 500;
     font-size: 20px;
@@ -83,4 +82,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio-list {
+        row-gap: 72px;
+    }
 }
