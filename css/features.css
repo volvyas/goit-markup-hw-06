@@ -56,7 +56,7 @@
         text-align: left;
     }
     .features-card {
-        max-width: 264px;
+        width: calc((100% - 24px) / 2);
     }
 
     .features-text {

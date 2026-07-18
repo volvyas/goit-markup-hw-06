@@ -135,6 +135,8 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
+        padding-left: 108px;
+        padding-right: 108px;
     }
     .footer-left {
         max-width: 264px;
