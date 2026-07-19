@@ -89,3 +89,9 @@
         row-gap: 72px;
     }
 }
+
+@media screen and (min-width: 1158px){
+    .portfolio-list {
+        row-gap: 48px;
+    }
+}

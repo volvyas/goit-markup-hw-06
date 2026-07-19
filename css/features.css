@@ -71,6 +71,9 @@
     .features-icon {
         display: block;
     }
+    .features-card {
+        max-width: 264px;
+    }
 
     .features-card p {
         font-weight: 400;
